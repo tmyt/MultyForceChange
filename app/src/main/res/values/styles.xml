@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MultyModeButton" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:maxWidth">45dp</item>
+        <item name="android:maxHeight">38dp</item>
+        <item name="android:minWidth">45dp</item>
+        <item name="android:minHeight">38dp</item>
+    </style>
+
+</resources>
